@@ -77,3 +77,19 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+
+# How did you decide on the technical and architectural choices used as part of your solution?
+I decided to use Redux Provider Design Pattern because:
+- easy to maintain code
+- easily scale the project
+- Commonly used, well documented
+
+# Are there any improvements you could make to your submission?
+Due to the short time, the inline css code, images and icons are also temporarily taken, so it is not 100% like in the request, if there is time, I will edit and separate the css to be reused.
+
+# What would you do differently if you were allocated more time?
+If I have more time, I will use a state management library to develop instead of the current way
+
+# What considerations are there is this were a production app?
+At a glance, it seems that the application will have a purchase function, if it is a product for direct users, I think it will need to develop more functions of login, registration, purchase, and payment.

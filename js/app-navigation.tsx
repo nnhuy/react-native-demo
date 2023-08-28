@@ -3,7 +3,6 @@ import {
   ApplicationRouteParamType,
   ApplicationRouteNameType,
 } from './definitions';
-import {LoginScreen, WelcomeScreen} from './views/screens';
 import { HomeScreen } from './views/screens/home.screen';
 import { ComicScreen } from './views/screens/comic.screen';
 

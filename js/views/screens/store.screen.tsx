@@ -10,14 +10,14 @@ import { BrandItem, BrandItemData } from '../common/components/brand-item.compon
 import { ApplicationNavigationProp } from '../../definitions';
 import { useNavigation } from '@react-navigation/native';
 
-export const WelcomeScreen = () => {
+export const StoreScreen = () => {
   const navigation = useNavigation<ApplicationNavigationProp>();
 
   const renderComicItem = ({ item }: { item: ComicItemData }) => {
     return (
       <ComicItem
         item={item}
-        onPress={() => { navigation.navigate('comic', {id: 1}) }}
+        onPress={() => { navigation.navigate('comic', {id: item.id}) }}
       />
     );
   };
